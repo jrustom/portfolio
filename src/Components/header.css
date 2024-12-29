@@ -8,9 +8,16 @@
 .homeButton, .aboutButton, .skillsButton, .resumeButton {
     text-align: center;
     font-size: 1.2rem;
+    color: white;
     background-color: #2697ae;  /* Make background color that color from vsauce of the beanie*/
 
     width: 7rem;
     padding: 0.5rem 0;
     border-radius: 0.2rem;
+
+    cursor: pointer;
+}
+
+.resumeButton {
+     text-decoration: none;
 }

@@ -1,3 +1,4 @@
+import { NavLink } from '../../../../Tennis Website/interclub/node_modules/react-router-dom';
 import './header.css';
 
 function Header() {
@@ -13,9 +14,9 @@ function Header() {
             <div className={'skillsButton'}>
                 Skills
             </div>
-            <div className={'resumeButton'}>
+            <NavLink to={'/resume'} className={'resumeButton'}>
                 Resume
-            </div>
+            </NavLink>
 
         </div>
     )

@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from '../../../Tennis Website/interclub/node_modules/react-router-dom';
-
+import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 
 import Header from './Components/header.tsx';
 import Home from './Components/home.tsx';
@@ -18,14 +17,13 @@ function App() {
         */}
         <Header/>
 
-
         <Routes>
+            <Route path={"/"} element={
+                <Navigate to={"/home"} replace/>
+            }/>
             <Route path={'/home'} element={<Home/>}/>
-
             <Route path={'/resume/'} element={<ResumePage/>}/>
         </Routes>
-
-    {/*    Check how to make the default url /home instead of / */}
     </Router>
   )
 }

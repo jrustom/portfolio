@@ -1,7 +1,13 @@
-import { NavLink } from '../../../../Tennis Website/interclub/node_modules/react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './header.css';
 
 function Header() {
+
+    const location = useLocation();
+
+    if (location.pathname == "/resume")
+        return null;
+
     return (
         <div className={'headerContainer'}>
 
@@ -14,9 +20,9 @@ function Header() {
             <div className={'skillsButton'}>
                 Skills
             </div>
-            <NavLink to={'/resume'} className={'resumeButton'}>
+            <Link to={'/resume'} target={'_blank'} className={'resumeButton'}>
                 Resume
-            </NavLink>
+            </Link>
 
         </div>
     )

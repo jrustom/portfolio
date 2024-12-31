@@ -3,7 +3,7 @@
 function Home() {
     return (
         <>
-            test
+            home section
         </>
     )
 }

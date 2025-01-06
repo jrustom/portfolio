@@ -1,10 +1,17 @@
-import Resume from '../assets/resume.pdf';
 import './resumePage.css';
+
+import Resume from '../assets/resume.pdf';
 
 function ResumePage() {
     return (
         <div className={'resumePage'}>
-            <img src={Resume} alt="Resume" />
+            {/*Put download icon here*/}
+
+            {/*Look into how the links in the pdf could be clickable even from the webpage*/}
+            <div className={'resumePageDownloadButton'}/>
+
+
+            <img src={Resume} alt="Resume" className={'resumePageImg'}/>
         </div>
     )
 }

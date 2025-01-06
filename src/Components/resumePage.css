@@ -1,4 +1,31 @@
 .resumePage {
     display: flex;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resumePageImg {
+    background-color: white;
+    border-radius: 5px;
+
+    width: 65%;
+
+    margin: 1rem 0 3rem 0;
+}
+
+.resumePageDownloadButton {
+    background-color: white;
+
+    align-self: flex-end;
+
+    margin: 2rem 2rem 0 0;
+
+    width: 40px;
+    height: 50px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
 }

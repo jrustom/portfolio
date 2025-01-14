@@ -1,31 +1,64 @@
 .resumePage {
     display: flex;
-    flex-grow: 1;
+    flex: 1;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.resumePageImg {
+.resumePageDownloadButton {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 2rem 2rem 0 0;
+    width: 40px;
+    height: 50px;
     border-radius: 5px;
+    cursor: pointer;
+}
 
-    width: 65%;
+.resumePageDownloadIcon {
+    color: #242424;
+    font-size: 2rem;
+}
 
+.resumePageContent {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 1rem 0 3rem 0;
 }
 
-.resumePageDownloadButton {
+.resumePageImg {
     background-color: white;
-
-    align-self: flex-end;
-
-    margin: 2rem 2rem 0 0;
-
-    width: 40px;
-    height: 50px;
-
     border-radius: 5px;
+    width: 65vw;
+}
 
-    cursor: pointer;
+.resumePagePopup {
+    position: fixed;
+
+    /*center*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    z-index: 10;
+
+
+    backdrop-filter: blur(8px);
+
+    color: white;
+    text-align: center;
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.resumePagePopupHidden {
+    display: none;
 }

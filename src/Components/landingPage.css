@@ -15,3 +15,39 @@
     color: white;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+
+.landingPageContainer>span:nth-child(1),
+.landingPageContainer>span:nth-child(2){
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+    animation-delay: 0.5s;
+}
+
+.landingPageDot {
+    opacity: 1;
+    animation: growToScreen 0.75s ease-in forwards;
+    animation-delay: 2.5s
+}
+
+@keyframes growToScreen {
+    0% {
+        transform: translateY(-5%)
+    }
+    50% {
+        transform: translateY(-10%)
+    }
+    100% {
+        transform: scale(250) translateY(-20%);
+        color: gray;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.landingPageDot {
+/*    goes up and then down*/
+}

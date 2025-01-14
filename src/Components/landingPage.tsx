@@ -8,7 +8,9 @@ const LandingPage: React.FC = () => {
     return (
         <div className="landingPageBackground">
           <div className={"landingPageContainer"}>
-              JR.
+              <span>J</span>
+              <span>R</span>
+              <span className={'landingPageDot'}>.</span>
           </div>
         </div>
     );

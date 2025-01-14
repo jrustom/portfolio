@@ -6,13 +6,11 @@ const LandingPage: React.FC = () => {
 
 
     return (
-        <div className="landingPageBackground">
           <div className={"landingPageContainer"}>
               <span>J</span>
               <span>R</span>
               <span>.</span>
           </div>
-        </div>
     );
 }
 

@@ -10,7 +10,14 @@ import LandingPage from "./Components/landingPage.tsx";
 function App() {
 
   return (
-    <LandingPage/>
+      <>
+        <div>
+          <LandingPage/>
+        </div>
+        <div>
+
+        </div>
+      </>
   );
 }
 

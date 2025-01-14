@@ -1,5 +1,7 @@
 .landingPageBackground {
     background-color: #000000;
+    animation: scrollUp 0.5s cubic-bezier(.83,-0.03,.36,.9) forwards;
+    animation-delay: 1.8s;
 }
 
 .landingPageContainer {
@@ -14,40 +16,44 @@
     font-size: 5rem;
     color: white;
     font-family: 'Be Vietnam Pro', sans-serif;
+    animation: scrollUp 0.5s cubic-bezier(.83,-0.03,.36,.9) forwards;
+    animation-delay: 2s;
+}
+
+@keyframes scrollUp {
+    80% {
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
 }
 
 .landingPageContainer>span:nth-child(1),
 .landingPageContainer>span:nth-child(2){
     opacity: 0;
-    animation: fadeIn 0.5s ease-in forwards;
+    filter: blur(1px);
+    transform: translate(-5px, -15px);
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.landingPageContainer>span:nth-child(1) {
+    animation-delay: 0.6s;
+}
+
+.landingPageContainer>span:nth-child(2) {
     animation-delay: 0.5s;
 }
 
-.landingPageDot {
-    opacity: 1;
-    animation: growToScreen 0.75s ease-in forwards;
-    animation-delay: 2.5s
-}
-
-@keyframes growToScreen {
-    0% {
-        transform: translateY(-5%)
-    }
+@keyframes fadeIn {
     50% {
-        transform: translateY(-10%)
+        transform: translate(0px, 0px);
+        filter: blur(0px);
     }
     100% {
-        transform: scale(250) translateY(-20%);
-        color: gray;
-    }
-}
-
-@keyframes fadeIn {
-    to {
         opacity: 1;
+        transform: translate(0px, 0px);
+        filter: blur(0px);
     }
-}
-
-.landingPageDot {
-/*    goes up and then down*/
 }

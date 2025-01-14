@@ -10,7 +10,7 @@ const LandingPage: React.FC = () => {
           <div className={"landingPageContainer"}>
               <span>J</span>
               <span>R</span>
-              <span className={'landingPageDot'}>.</span>
+              <span>.</span>
           </div>
         </div>
     );

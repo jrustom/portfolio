@@ -1,16 +1,218 @@
-
 #root {
-  /* display: flex; */
   max-width: 1280px;
-  margin: 0 0;
-  /* padding: 2rem; */
-  /* text-align: center; */
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.6;
 }
 
 p {
-  margin: 0 0;
+  margin: 0.2rem 0;
 }
 
+/* JSON Structure Styling */
 .bracket {
   color: #e3c205;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+/* Array brackets */
+.array-bracket {
+  color: #ff8c42;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/* Fade in animation */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Main container with JSON indentation */
+.json-container {
+  font-family: "Space Mono", monospace;
+  color: rgba(255, 255, 255, 0.87);
+  padding-left: 0.2rem;
+  animation: fadeInLeft 0.8s ease-out;
+}
+
+/* Section titles (main keys) */
+.section-title {
+  color: #9cdcfe;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+}
+
+/* Property keys */
+.property-key {
+  color: #9cdcfe;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* String values */
+.string-value {
+  color: #ce9178;
+  font-size: 1.3rem;
+}
+
+/* Title specific styling */
+.main-title {
+  color: #ce9178;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.subtitle {
+  color: #ce9178;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 65px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+  }
+}
+
+/* Title punctuation styling */
+.title-punctuation {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 25px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .title-punctuation {
+    font-size: 35px;
+  }
+}
+
+/* Links styling */
+.json-link {
+  color: #ce9178;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  font-size: 1.3rem;
+}
+
+.json-link:hover {
+  color: #deb887;
+  text-decoration: underline;
+}
+
+/* Nested object indentation */
+.indent-1 {
+  padding-left: 1rem;
+}
+.indent-2 {
+  padding-left: 2rem;
+}
+.indent-3 {
+  padding-left: 3rem;
+}
+
+/* Array styling */
+.array-item {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  margin: 0.3rem 0;
+  text-indent: -0.5rem;
+  padding-left: 1rem;
+}
+
+/* Inline array styling */
+.inline-array {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3rem;
+}
+
+.inline-array-bracket {
+  color: #ff8c42;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/* Project description styling */
+.project-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3rem;
+}
+
+/* Highlight important content */
+.highlight {
+  color: #569cd6;
+  font-weight: 600;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.4rem;
+    margin: 0.5rem 0 0.3rem 0;
+  }
+
+  .property-key {
+    font-size: 1.2rem;
+  }
+
+  .bracket {
+    font-size: 1.3rem;
+  }
+
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .mt-8 {
+    margin-top: 1rem;
+  }
+
+  .mt-6 {
+    margin-top: 0.8rem;
+  }
+
+  .array-item {
+    margin: 0.2rem 0;
+    padding-left: 0.3rem;
+  }
+
+  /* Much more subtle indentation for mobile */
+  .indent-1 {
+    padding-left: 0.3rem;
+  }
+
+  .indent-2 {
+    padding-left: 0.6rem;
+  }
+
+  .indent-3 {
+    padding-left: 0.9rem;
+  }
+
+  .json-container {
+    padding-left: 0.1rem;
+  }
+
+  /* Stack links vertically on mobile */
+  .mobile-link-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mobile-link-line {
+    margin-top: 0.2rem;
+  }
 }

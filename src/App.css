@@ -51,7 +51,7 @@ p {
   font-family: "Space Mono", monospace;
   color: rgba(255, 255, 255, 0.87);
   padding-left: 0.2rem;
-  animation: fadeInLeft 0.8s ease-out;
+  animation: fadeInLeft 0.5s ease-out;
   width: 100%;
   overflow-x: hidden;
   word-wrap: break-word;

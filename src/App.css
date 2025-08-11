@@ -3,6 +3,17 @@
   margin: 0 auto;
   padding: 1rem;
   line-height: 1.6;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 p {
@@ -41,6 +52,9 @@ p {
   color: rgba(255, 255, 255, 0.87);
   padding-left: 0.2rem;
   animation: fadeInLeft 0.8s ease-out;
+  width: 100%;
+  overflow-x: hidden;
+  word-wrap: break-word;
 }
 
 /* Section titles (main keys) */

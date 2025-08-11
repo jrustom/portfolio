@@ -84,7 +84,7 @@ function App() {
           <div className="mb-2">
             <span className="property-key">"Coursework":</span>
             <div className="indent-1">
-              <p className="array-bracket">[</p>
+              <p className="array-bracket indent-1">[</p>
               <div className="indent-2">
                 <p className="array-item">"Algorithms and Data Structures",</p>
                 <p className="array-item">"Object-Oriented Programming",</p>
@@ -94,7 +94,7 @@ function App() {
                   "Design Patterns and Software Validation"
                 </p>
               </div>
-              <p className="array-bracket">]</p>
+              <p className="array-bracket indent-1">]</p>
             </div>
           </div>
         </div>
@@ -105,8 +105,8 @@ function App() {
         <div className="indent-1">
           <p className="array-bracket">[</p>
           <div className="indent-2">
-            <p className="bracket">&#123;</p>
-            <div className="indent-3">
+            <p className="bracket indent-1">&#123;</p>
+            <div className="indent-2">
               <p className="mb-2">
                 <span className="property-key">"Company":</span>
                 <span className="string-value ml-2">"Intact"</span>
@@ -120,7 +120,7 @@ function App() {
               <div className="mb-2">
                 <span className="property-key">"Description":</span>
                 <div className="indent-1">
-                  <p className="array-bracket">[</p>
+                  <p className="array-bracket indent-1">[</p>
                   <div className="indent-2">
                     <p className="array-item">
                       "Delivered multiple high-impact A/B tests that optimized
@@ -144,14 +144,14 @@ function App() {
                       future revenue growth"
                     </p>
                   </div>
-                  <p className="array-bracket">]</p>
+                  <p className="array-bracket indent-1">]</p>
                 </div>
               </div>
             </div>
-            <p className="bracket indent-2">&#125;,</p>
+            <p className="bracket indent-1">&#125;,</p>
 
-            <p className="bracket indent-2">&#123;</p>
-            <div className="indent-3">
+            <p className="bracket indent-1">&#123;</p>
+            <div className="indent-2">
               <p className="mb-2">
                 <span className="property-key">"Company":</span>
                 <span className="string-value ml-2">"ParkUsher"</span>
@@ -165,7 +165,7 @@ function App() {
               <div className="mb-2">
                 <span className="property-key">"Description":</span>
                 <div className="indent-1">
-                  <p className="array-bracket">[</p>
+                  <p className="array-bracket indent-1">[</p>
                   <div className="indent-2">
                     <p className="array-item">
                       "Developed and deployed more than 5 key features using
@@ -183,13 +183,13 @@ function App() {
                       accelerating deployment cycles"
                     </p>
                   </div>
-                  <p className="array-bracket">]</p>
+                  <p className="array-bracket indent-1">]</p>
                 </div>
               </div>
             </div>
-            <p className="bracket indent-2">&#125;</p>
+            <p className="bracket indent-1">&#125;</p>
           </div>
-          <p className="array-bracket indent-1">],</p>
+          <p className="array-bracket">],</p>
         </div>
 
         {/* Projects */}

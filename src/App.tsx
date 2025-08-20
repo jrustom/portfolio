@@ -194,51 +194,195 @@ function App() {
 
         {/* Projects */}
         <p className="section-title mt-6">"Projects":</p>
+        <div className="indent-1">
+          <p className="array-bracket">[</p>
+          <div className="indent-2">
+            <p className="bracket indent-1">&#123;</p>
+            <div className="indent-2">
+              <p className="mb-2">
+                <span className="property-key">"Title":</span>
+                <span className="string-value ml-2">"Hotspot"</span>
+                <span className="text-white">,</span>
+              </p>
+              <div className="mb-2">
+                <span className="property-key">"Links":</span>
+                <div className="indent-1">
+                  <p className="array-bracket indent-1">[</p>
+                  <div className="indent-2">
+                    <p className="mb-2">
+                      <a
+                        href="https://hotspotapp.vercel.app"
+                        target="_blank"
+                        className="json-link ml-2"
+                      >
+                        "https://hotspotapp.vercel.app"
+                      </a>
+                      <span className="text-white">,</span>
+                    </p>
+                    <p className="mb-2">
+                      <a
+                        href="https://github.com/jrustom/hotspot"
+                        target="_blank"
+                        className="json-link ml-2"
+                      >
+                        "https://github.com/jrustom/hotspot"
+                      </a>
+                    </p>
+                  </div>
+                  <p className="array-bracket indent-1">],</p>
+                </div>
+              </div>
+              <p className="mb-2">
+                <span className="property-key">"Tech Stack":</span>
+                <span className="ml-2">
+                  <span className="inline-array-bracket">[</span>
+                  <span className="inline-array">
+                    "TypeScript", "React", "Spring Boot"
+                  </span>
+                  <span className="inline-array-bracket">],</span>
+                </span>
+              </p>
+              <p className="mb-2">
+                <span className="property-key">"Description":</span>
+                <div className="indent-1">
+                  <p className="array-item">
+                    "A full-stack web application that enables location-based
+                    group chats through interactive map hotspots. Uses
+                    WebSockets to deliver seamless real-time communication."
+                  </p>
+                </div>
+              </p>
+            </div>
+            <p className="bracket indent-1">&#125;,</p>
+
+            <p className="bracket indent-1">&#123;</p>
+            <div className="indent-2">
+              <p className="mb-2">
+                <span className="property-key">"Title":</span>
+                <span className="string-value ml-2">
+                  "Montreal Junior Tennis League"
+                </span>
+                <span className="text-white">,</span>
+              </p>
+              <div className="mb-2">
+                <span className="property-key">"Links":</span>
+                <div className="indent-1">
+                  <p className="array-bracket indent-1">[</p>
+                  <div className="indent-2">
+                    <p className="mb-2">
+                      <a
+                        href="https://mtljrinterclubtennis.com"
+                        target="_blank"
+                        className="json-link ml-2"
+                      >
+                        "https://mtljrinterclubtennis.com"
+                      </a>
+                    </p>
+                  </div>
+                  <p className="array-bracket indent-1">],</p>
+                </div>
+              </div>
+              <p className="mb-2">
+                <span className="property-key">"Tech Stack":</span>
+                <span className="ml-2">
+                  <span className="inline-array-bracket">[</span>
+                  <span className="inline-array">"JavaScript", "React"</span>
+                  <span className="inline-array-bracket">],</span>
+                </span>
+              </p>
+              <p className="mb-2">
+                <span className="property-key">"Description":</span>
+                <div className="indent-1">
+                  <p className="array-item">
+                    "A dynamic website for a youth tennis league, providing
+                    real-time schedules and updates for over 300 parents and
+                    players. The site integrates the Google Sheets API for
+                    automated content management and provides English and French
+                    translations for a bilingual audience."
+                  </p>
+                </div>
+              </p>
+            </div>
+            <p className="bracket indent-1">&#125;,</p>
+
+            <p className="bracket indent-1">&#123;</p>
+            <div className="indent-2">
+              <p className="mb-2">
+                <span className="property-key">"Title":</span>
+                <span className="string-value ml-2">"Build-A-Book"</span>
+                <span className="text-white">,</span>
+              </p>
+              <div className="mb-2">
+                <span className="property-key">"Links":</span>
+                <div className="indent-1">
+                  <p className="array-bracket indent-1">[</p>
+                  <div className="indent-2">
+                    <p className="mb-2">
+                      <a
+                        href="https://github.com/jrustom/Build-a-Book"
+                        target="_blank"
+                        className="json-link ml-2"
+                      >
+                        "https://github.com/jrustom/Build-a-Book"
+                      </a>
+                    </p>
+                  </div>
+                  <p className="array-bracket indent-1">],</p>
+                </div>
+              </div>
+              <p className="mb-2">
+                <span className="property-key">"Tech Stack":</span>
+                <span className="ml-2">
+                  <span className="inline-array-bracket">[</span>
+                  <span className="inline-array">
+                    "JavaScript", "React", "Python"
+                  </span>
+                  <span className="inline-array-bracket">],</span>
+                </span>
+              </p>
+              <p className="mb-2">
+                <span className="property-key">"Description":</span>
+                <div className="indent-1">
+                  <p className="array-item">
+                    "An AI-powered platform that transforms simple prompts into
+                    fully illustrated children's books, making storytelling
+                    accessible to educators and parents. Recognized with the
+                    Best Use of AI in Education award for its innovative
+                    approach to educational content creation."
+                  </p>
+                </div>
+              </p>
+            </div>
+            <p className="bracket indent-1">&#125;</p>
+          </div>
+          <p className="array-bracket">],</p>
+        </div>
+
+        {/* Contact */}
+        <p className="section-title mt-8">"Contact":</p>
         <p className="bracket indent-1">&#123;</p>
         <div className="indent-2">
           <p className="mb-2">
-            <span className="property-key">"Title":</span>
-            <span className="string-value ml-2">"Build-A-Book"</span>
-            <span className="text-white">,</span>
-          </p>
-          <p className="mb-2">
-            <span className="property-key">"Github":</span>
+            <span className="property-key">"Email":</span>
             <a
-              href="https://github.com/jrustom/Build-a-Book"
-              target="_blank"
+              href="mailto:jason.rustom@mail.mcgill.ca"
               className="json-link ml-2"
             >
-              "https://github.com/jrustom/Build-a-Book"
+              "jason.rustom@mail.mcgill.ca"
             </a>
             <span className="text-white">,</span>
           </p>
-          <p className="mb-2">
-            <span className="property-key">"Tech Stack":</span>
-            <span className="ml-2">
-              <span className="inline-array-bracket">[</span>
-              <span className="inline-array">
-                "TypeScript", "React", "Python"
-              </span>
-              <span className="inline-array-bracket">]</span>
-            </span>
+
+          <div className="flex flex-row items-center mb-2">
+            <span className="property-key">"Phone":</span>
+            <a href="tel:+15149792004" className="json-link ml-2">
+              "514-979-2004"
+            </a>
             <span className="text-white">,</span>
-          </p>
-          <p className="mb-2">
-            <span className="property-key">"Description":</span>
-            <div className="indent-1">
-              <p className="array-item">
-                "An AI-powered platform that transforms simple prompts into
-                fully illustrated children's books, making storytelling
-                accessible to educators and parents. Recognized with the Best
-                Use of AI in Education award for its innovative approach to
-                educational content creation."
-              </p>
-            </div>
-          </p>
+          </div>
         </div>
         <p className="bracket indent-1">&#125;</p>
       </div>
-
       <p className="bracket">&#125;</p>
     </div>
   );

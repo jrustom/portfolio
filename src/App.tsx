@@ -22,6 +22,16 @@ function App() {
           </div>
         </div>
 
+        {/* About */}
+        <p className="section-title mt-8">"About":</p>
+        <div className="string-value indent-text">
+          "I love to solve complex problems and build cool things using software. Recently I've been focused on full-stack development, but I'm really enjoying learning about functional programming and operating systems.
+          <br />
+          <br />
+          In my free time I'm either rock climbing, running, or just learning something new."
+          <span className="text-white">,</span>
+        </div>
+
         {/* Links */}
         <p className="section-title mt-8">"Links":</p>
         <p className="bracket indent-1">&#123;</p>
@@ -77,7 +87,7 @@ function App() {
           <p className="mb-2">
             <span className="property-key">"Degree":</span>
             <span className="string-value ml-2">
-              "Software Engineering Co-op with Applied AI"
+              "Software Engineering with Applied AI"
             </span>
             <span className="text-white">,</span>
           </p>
@@ -89,10 +99,10 @@ function App() {
                 <p className="array-item">"Algorithms and Data Structures",</p>
                 <p className="array-item">"Object-Oriented Programming",</p>
                 <p className="array-item">"Computer Architecture",</p>
-                <p className="array-item">"Algorithm Design",</p>
-                <p className="array-item">
-                  "Design Patterns and Software Validation"
-                </p>
+                <p className="array-item">"Operating Systems"</p>
+                {/* <p className="array-item"> */}
+                {/*   "Design Patterns and Software Validation" */}
+                {/* </p> */}
               </div>
               <p className="array-bracket indent-1">]</p>
             </div>
@@ -119,33 +129,9 @@ function App() {
               </p>
               <div className="mb-2">
                 <span className="property-key">"Description":</span>
-                <div className="indent-1">
-                  <p className="array-bracket indent-1">[</p>
-                  <div className="indent-2">
-                    <p className="array-item">
-                      "Delivered multiple high-impact A/B tests that optimized
-                      user experience and generated millions in additional
-                      revenue",
-                    </p>
-                    <p className="array-item">
-                      "Created an automation script that eliminated repetitive
-                      development tasks, increasing development productivity by
-                      80%",
-                    </p>
-                    <p className="array-item">
-                      "Onboarded and mentored a new team member, providing
-                      comprehensive knowledge of systems and processes to ensure
-                      rapid productivity in their first weeks",
-                    </p>
-                    <p className="array-item">
-                      "Contributed to architecture discussions and independently
-                      developed a new Spring Boot service with potential to
-                      secure 50,000+ new customer contracts and substantial
-                      future revenue growth"
-                    </p>
-                  </div>
-                  <p className="array-bracket indent-1">]</p>
-                </div>
+                <p className="description-text">
+                  "Drove backend service development, implemented custom workflow automations, and delivered high-impact UX features."
+                </p>
               </div>
             </div>
             <p className="bracket indent-1">&#125;,</p>
@@ -164,27 +150,9 @@ function App() {
               </p>
               <div className="mb-2">
                 <span className="property-key">"Description":</span>
-                <div className="indent-1">
-                  <p className="array-bracket indent-1">[</p>
-                  <div className="indent-2">
-                    <p className="array-item">
-                      "Developed and deployed more than 5 key features using
-                      React Native and TypeScript, boosting company revenue
-                      potential by 400% while improving user experience for over
-                      15,000 users",
-                    </p>
-                    <p className="array-item">
-                      "Upgraded back-end infrastructure to support multi-city
-                      operations, driving a 200% increase in user reach",
-                    </p>
-                    <p className="array-item">
-                      "Streamlined CI/CD pipelines using GitHub Actions and
-                      Python, reducing manual intervention by 70% and
-                      accelerating deployment cycles"
-                    </p>
-                  </div>
-                  <p className="array-bracket indent-1">]</p>
-                </div>
+                <p className="description-text">
+                  "Built and deployed key React Native features, upgraded backend infrastructure, and streamlined CI/CD pipelines to enhance scalability and user experience."
+                </p>
               </div>
             </div>
             <p className="bracket indent-1">&#125;</p>
@@ -382,9 +350,9 @@ function App() {
           </div>
         </div>
         <p className="bracket indent-1">&#125;</p>
-      </div>
+      </div >
       <p className="bracket">&#125;</p>
-    </div>
+    </div >
   );
 }
 

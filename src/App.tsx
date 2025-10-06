@@ -25,7 +25,7 @@ function App() {
         {/* About */}
         <p className="section-title mt-8">"About":</p>
         <div className="string-value indent-text">
-          "I love to solve complex problems and build cool things using software. Recently I've been focused on full-stack development, but I'm really enjoying learning about functional programming and operating systems.
+          "I love solving complex problems and building cool things with software. Lately, I’ve been focused on full-stack development, but I’m also having fun learning about functional programming and operating systems."
           <br />
           <br />
           In my free time I'm either rock climbing, running, or just learning something new."
